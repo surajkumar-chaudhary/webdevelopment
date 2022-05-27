@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #fbda61, #ff5acd);
+}
+
+.main{
+    position: relative;
+    height: 150px;
+    width: 350px;
+    border-radius: 30px;
+    background-color: #fff;
+    transition: 0.7s;
+}
+.main:hover{
+    height: 250px;
+}
+.main .container{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background: black;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.main:hover .container{
+    height: 200px;
+    width: 250px;
+    top: -65%;
+}
+
+.main .detail{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+.main .detail .overflow{
+    width: 100%;
+     transform: translateY(135px);
+    transition: 0.7s;
+}
+.main:hover .detail .overflow{
+    transform: translateY(0);
+}
+
+.main .detail .info{
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main .detail .info .status{
+    display: flex;
+    justify-content: space-around;
+    margin:20px 20px;
+}
+
+.main .detail .info .bttn{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 10px;
+     margin: 0 50px;
+}
+
+.main .detail .info .bttn button{
+    height: 30px;
+    width: 80px;
+    color: black;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.main .detail .info .bttn button:nth-child(2){
+    border: 2px solid black;
+
+}
+.main .detail .info .bttn button:nth-child(1){
+    background: #ff5f95;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+.card .content .detail .data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.card .content .detail .data h3{
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:0 10px;
+}
+
+.card .content .detail .data h3 span{
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+
+<div class="content"><div class="detail"><h2>Melina Giri <br><span>Senior UI/UX Designer</span></h2></div>
